@@ -4,6 +4,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 
+
+//service for manipulating/storing the data we care about - keeping as much dirty work away from the components as possible
 export class ScoreService {
   //variables to track each player's pick as well as the score and result of each fight
   highScore: number;
